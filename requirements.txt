@@ -1,0 +1,11 @@
+# requirements.txt
+pyspark==3.5.0
+kafka-python==2.0.2
+pymongo==4.6.1
+pandas==2.2.1
+apache-airflow==2.9.0  # Upgraded from 2.8.1 to resolve provider conflicts
+streamlit==1.36.0      # Upgraded from 1.32.0 to satisfy streamlit-option-menu
+psutil==5.9.8
+protobuf==5.26.1       # Upgraded from 4.25.6 to satisfy grpcio-status
+flask-appbuilder==4.5.3  # Explicitly set to match apache-airflow-providers-fabpip 
+install -r requirements.txt --no-cache-dir
